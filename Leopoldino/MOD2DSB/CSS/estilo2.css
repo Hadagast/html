@@ -1,0 +1,40 @@
+
+body{
+	background-color:#00BFFF;
+	color:rgb(10,10,10);
+	}
+p{
+	font-family: "Trebuchet Ms",Helvetic,sans-serit;
+	color:#FFFFFF;
+	font-size:15;
+	text-align:justify;
+	text-decoration:none;
+	text-ident: 15px;
+	}
+p{
+	font-family:georgian;
+	color:#F7B733;
+	font-size: 25px
+}
+p.test1{
+	text-decoration:underline;
+	color:rgb(0,0,0);
+}
+
+p.test2{
+	font-family:garamond;
+	font-size: 25px;
+}
+
+h2#titulo{
+	text-align:center;
+	text-decoration:overline;
+}
+#par1{
+	font-family:wingdings;
+	font-size: 20px;
+}
+#par2{
+	text-ident: 30px;
+	color:#F7B733:
+}
