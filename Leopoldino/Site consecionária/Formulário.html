@@ -7,21 +7,22 @@
 </head>
 <body>
 	<h1>Formulário</h1>
-	<h3>Cadastro de consórcio</h3>
+	<br>
+	<h3 align="center">Cadastro de consórcio</h3>
 	<form>
-		<table border="1">
+		<table align="center">
 			<tr>
-				<td align="center">Nome: </td>
+				<td>Nome: </td>
 				<td><input type="text" name="Firstname"></td>
 			 	<td>Sobrenome: </td>
 			 	<td><input type="text" name="lastname"></td>
-			 	</tr>
+			</tr>
 			<tr>
 			 	<td>Nascimento: </td>
 			 	<td align="center"><input type="date"></td>	
 			</tr>
 			<tr>
-				<td align="center">Genero:</td> 
+				<td>Genero:</td> 
 			 	<td>
 			  		<input type="radio" name="sex" value="male">Masculino
 	  	 	  		<br>
@@ -30,25 +31,68 @@
 	 		  		<input type="radio" name="sex" value="outher">Não declarar
 	 		 	</td>
 	        </tr>
-	        <tr>
+			<tr>
+				<td>Endereço: </td>
+			 	<td><input type="text"></td>
+			 	<td>Bairro: </td>
+			 	<td><input type="text"></td>
+			</tr>
+			<tr>
+			 	<td>Cidade: </td>
+			 	<td><input type="text"></td>	
+			 	<td>Estado: </td>
+			 	<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>CEP: </td>
+			 	<td><input type="text"></td>
+			</tr>
+			<tr>
 	         	<td>Identidade: </td>
 			 	<td><input type="int"></td>	
 			 	<td>CPF: </td>
 			 	<td><input type="int"></td>	
 			</tr>
 			<tr>
-				<td>Endereço: </td>
-			 	<td><input type="text"></td>
-			 	<td>Bairro: </td>
-			 	<td><input type="text"></td>
-			 	<td>Cidade: </td>
-			 	<td><input type="text"></td>	
-			 	<td>Estado: </td>
+				<td>Renda: </td>
 			 	<td><input type="text"></td>
 			</tr>
-
+			<tr>
+				<td>Telefone: </td>
+			 	<td><input type="text"></td>
+			 	<td>Celular: </td>
+			 	<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>Email: </td>
+			 	<td><input type="text"></td>
+			</tr>
+			<table align="center">
+				<tr><td>Selecione o veiculo desejado.</td>					
+					<td>
+						<select name="cars">
+							<option value="volvo">
+	  						<option value="volvo">Volvo
+	 						<option value="fiat">Fiat
+	  						<option value="audi">Audi
+	  						<option value="jeep">Jeep
+	 					</select>
+	 				</td>
+				</tr>
+			</table>
 		</table>
+		<center>
+			<br>
+			Isso é um pré-cadastro, iremos analizar seus dados e entraremos em contato com você.
+			<br>
+			<br>
+			Selecione aqui se concorda com os termos.    <input type="radio" name="bike">
+			<br>
+			Selecione aqui se não concorda com os termos.<input type="radio" name="bike">
+			<br>
+			<br>
+			<input  type="submit" value="Enviar" valign="center">
+		</center>
 	</form>
-
 </body>
 </html>
